@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <title>About Me</title>
     <style>
         body {
@@ -12,6 +13,7 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
+			text-align: center;
         }
         .main-info {
             background: #ffcc00;
@@ -21,15 +23,30 @@
         .main-info h1 {
             margin: 0;
         }
-        .hobbies, .career, .course, .fun-fact {
-            background: #3333cc;
+        .hobbies, .career, .course, .fun-fact, .introduction, .hobbies {
+            background: #F2E8D8;
             padding: 15px;
             margin-bottom: 10px;
         }
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;	
+		}
+		imh:hover {
+			box-shadow: 0 0 2px 1px rgba(0, 140, 180, 0.5)
+		} .no-padding {
+			padding-left: 40% ;
+		} ul {
+			text-align:left;
+		}
     </style>
 </head>
 <body>
     <div class="container">
+		<a target="_blank" href="me-300-by-300.jpg">
+			<img src="me-300-by-300.jpg" alt="clickable thumbnail portrait" class="center" width=300>
+		</a>
         <header class="main-info">
             <h1>My Name: Andrew Neil</h1>
             <p>Preferred Name: Andrew or Andy</p>
@@ -37,7 +54,17 @@
 			<p><a href="mailto:andrewjneil@lewisu.edu"> andrewjneil@lewisu.edu</a></p>
 			<p><a href="https://discord.gg/w87VWu7YMd"> Join the discord</a></p>
         </header>
-
+		
+		<img src="me-800-by-800.jpg" alt="800 pixel width photo of Andrew" class="center" width=800 >
+		
+		<section class="introduction">
+			<h2>introduction</h2>
+			<p> Hello everyone, my name is Andrew Neil and I am taking this class in my path to completion of my Computer Sceince degree.
+			I am taking the Lewis and JJC 3+1 route and have completed all of my JJC courses so now I am a full time student at Lewis! I have 
+			always really enjoyed working on computers and have recently fell in love with coding. I was first introduced to computers by my 
+			father and grandfather back when I was around the age of 7. I always enjoyed fixing broken devices and built my first own PC in 6th 
+			grade and since then have built many rigs for family memebers as well as helping out friends to build their own devices.</p>
+		</section> 
 		
         <section class="career">
             <h2>Job Responsibilities</h2>
@@ -57,15 +84,30 @@
         <section class="course">
             <h2>Reasons for Taking This Course</h2>
             <p> Software is an integral portion of all things related to electronics and is a cornerstone of computing</p>
+			<h2> What I Hope to Learn in this Course</h2>
+			<ul class="no-padding" "ul">
+				<li>Scrum Process</li>
+				<li>Many SDLCs</li>
+				<li>Software Development skills</li>
+			</ul>
         </section>
+		
+		<section class="hobbies">
+			<h2>My Favorite Hobby/Activity</h2>
+			<ul class="no-padding" "ul">
+				<li>Baseball</li>
+				<li>Golf</li>
+				<li>Video Games</li>
+			</ul>
+		</section>
 
         <section class="fun-fact">
             <h2>Fun Fact</h2>
             <p> A fun fact about me is that I also love dogs and have had bearded collies and beagles my whole life.</p>
         </section>
     </div>
-</body>
 <footer>
 	<p>Last Updated: 9/6/2025 by Andrew Neil</p>
 </footer>	
+</body>
 </html>
